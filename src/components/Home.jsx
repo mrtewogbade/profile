@@ -24,7 +24,7 @@ const Home = () => {
             to expand my skill set.
           </p>
           <div>
-            <Link to='projects' smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-800 to-blue-20">
+            <Link to='projects' smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-800 to-blue-20 cursor-pointer">
               View Projects
               <span className="group-hover:rotate-90 duration-300 ml-2">
                 <FaArrowRightLong />
