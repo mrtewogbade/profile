@@ -1,8 +1,7 @@
-// import React from 'react';
-// import HeroImg from '../assets/others/heroLong.jpg';
-import Hero from '../assets/others/hero.jpg';
+
+import Hero from "../assets/others/hero.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { Link } from "react-scroll"
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -18,25 +17,36 @@ const Home = () => {
             I am a Full Stack Developer
           </h2>
           <p className="text-gray-200 py-4">
-            ...with a passion for creating beautiful
-            and functional web applications. I have experience in both front-end
-            and back-end development, and I am always looking for new challenges
-            to expand my skill set.
+            ...with a passion for creating beautiful and functional web
+            applications. I have experience in both front-end and back-end
+            development, and I am always looking for new challenges to expand my
+            skill set.
           </p>
           <div>
-            <Link to='projects' smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-800 to-blue-20 cursor-pointer">
+            <Link
+              to="projects"
+              smooth
+              duration={500}
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-800 to-blue-20 cursor-pointer"
+            >
               View Projects
               <span className="group-hover:rotate-90 duration-300 ml-2">
                 <FaArrowRightLong />
               </span>
             </Link>
 
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-l from-cyan-800 to-blue-160">
+            {/* Anchor tag for Google Drive link */}
+            <a
+              href="https://drive.google.com/file/d/1FABt0sLE0BNW8GgnDoKKaMovGcUP4_69/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-l from-cyan-800 to-blue-160"
+            >
               View Resume and Cover Letter
               <span className="group-hover:rotate-90 duration-300 ml-2">
                 <FaArrowRightLong />
               </span>
-            </button>
+            </a>
           </div>
         </div>
 
