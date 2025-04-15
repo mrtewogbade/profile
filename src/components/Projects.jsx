@@ -1,43 +1,38 @@
 // Projects Component
 
-import musicApp from "../assets/projects/musicap.png";
-import launchingSoon from "../assets/projects/launchingSoon.png";
-import wardDiere from "../assets/projects/wardDiere.png";
-import bookLib from "../assets/projects/book.png"
-import bookMgt from "../assets/projects/bookWeb.png"
+
+import heshbon from "../assets/projects/heshbon.png";
+import arennah from "../assets/projects/arennah.png";
+import imerch from "../assets/projects/imerch.png";
+import laptop from "../assets/projects/laptop.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      src: bookLib,
-      codeLink: "https://github.com/mrtewogbade/book-library.git",
-      demoLink: "https://mrtewogbade.github.io/book-library/",
+      src: heshbon,
+      codeLink: "https://heshbontech.com/",
+      demoLink: "https://heshbontech.com/",
     },
     {
       id: 2,
-      src: bookMgt,
-      codeLink: "https://github.com/mrtewogbade/library-mgt-system.git",
-      demoLink: "https://www.example.com/project1-demo",
+      src: arennah,
+      codeLink: "https://arennah.com",
+      demoLink: "https://arennah.com",
     },
     {
       id: 3,
-      src: musicApp,
-      codeLink: "https://github.com/mrtewogbade/music-app_UI.git",
-      demoLink: "https://mrtewogbade.github.io/music-app_UI/",
+      src: imerch,
+      codeLink: "https://imerchlimited.com",
+      demoLink: "https://imerchlimited.com/",
     },
     {
       id: 4,
-      src: launchingSoon,
-      codeLink: "https://github.com/mrtewogbade",
-      demoLink: "https://www.example.com/project2-demo",
+      src: laptop,
+      codeLink: "https://www.laptopwarehouseonline.net/",
+      demoLink: "https://www.laptopwarehouseonline.net/",
     },
-    {
-      id: 5,
-      src: wardDiere,
-      codeLink: "https://github.com/mrtewogbade",
-      demoLink: "https://www.example.com/project3-demo",
-    },
+   
   ];
 
   return (
